@@ -1,6 +1,7 @@
 self.__uv$config = {
     prefix: "/~/uv/",
     bare: "/bare/",
+    wisp: "wss://wisp.mercuryws.xyz/",
     encodeUrl: function encode(str) {
         if (!str) return str;
         return encodeURIComponent(
