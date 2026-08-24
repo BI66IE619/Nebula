@@ -1,8 +1,10 @@
 [server]
 port = 8080
+secret = "change_this_to_anything_random"
 
 [database]
 type = "sqlite"
+url = "file:database.db"
 
 [frontend]
 enabled = true
@@ -12,3 +14,12 @@ enabled = true
 
 [proxy]
 enabled = true
+
+[api]
+enabled = true
+
+[admin]
+enabled = false
+
+[security]
+rate_limit = false
